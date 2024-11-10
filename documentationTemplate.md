@@ -1,77 +1,47 @@
-# Project Name: Audio-Visual Mixer
+# Patch Name: [output file name here]
+- **Date:** [output today's date in MM/DD/YYYY format]
 
-## Document Details
-- **Version:** 1.0
-- **Author:** John Doe
-- **Date:** November 10, 2024
-
-## Project Overview
-### Purpose
-This TouchDesigner project integrates live audio inputs with visual effects to create dynamic visualizations during live performances.
+## General Overview
+### Summary
+[output your assessment of the general purpose and functionality of the TouchDesigner patch in 1-3 sentences here. For example: This TouchDesigner project integrates live audio inputs with visual effects to create dynamic visualizations during live performances.]
 
 ### Key Features
-- Real-time audio analysis.
-- Dynamic visual generation based on audio input.
-- Output to multi-display setup.
+[output a list of key features]
 
 ### Hardware Requirements
-- Kinect Azure for motion capture.
-- Professional audio interface for high-quality audio input.
+[output hardware requirements if neccessary]
 
 ## Node Graph Overview
-### Diagram
-![Complete Node Network](path/to/diagram.png)
 ### General Flow Description
-The project captures live audio and motion data, processes the information, and outputs synchronized audio-visual content. Audio data is filtered, analyzed, and then used to modulate various visual parameters.
+[output your assessment of how the patch functions and which essential groups of nodes function together. This should be 1-3 sentences. For example: 
+The project captures live audio and motion data, processes the information, and outputs synchronized audio-visual content. Audio data is filtered, analyzed, and then used to modulate various visual parameters.]
 
 ## Detailed Node Descriptions
 ### Nodes Listing
-#### `kinectazure1`
-- **Type:** Kinect Azure
-- **Description:** Captures motion data for audience interaction.
-- **Parameters:** 
-  - Depth Mode: High
-  - Camera Index: 0
-- **Inputs/Outputs:** Outputs to `select1`
-- **Custom Parameters:** None
-
-#### `audiofilein1`
-- **Type:** Audio File In
-- **Description:** Streams audio data from the connected interface.
-- **Parameters:** 
-  - File: `live_input`
-  - Play Mode: Locked to Timeline
-- **Inputs/Outputs:** Outputs to `audiofilter1`
-- **Custom Parameters:** None
+[output a list of all essential nodes here. The 'Description' parameter is the most important. Do not stretch your faculties of induction if you aren't so sure. For example:
+  #### `kinectazure1`
+  - **Type:** Kinect Azure
+  - **Description:** Captures motion data for audience interaction.
+  - **Parameters:** 
+    - Depth Mode: High
+    - Camera Index: 0
+  - **Inputs/Outputs:** Outputs to `select1`
+  - **Custom Parameters:** None
+]
 
 ## Dependencies and External Files
-### List of External Files
-- **Audio Files:** Stored in `/project/audio/` used for testing.
-### Dependencies
-- Requires an external audio interface supported by ASIO drivers.
+[For example:
+  ### List of External Files
+  - **Audio Files:** Stored in `/project/audio/` used for testing.
+  ### Dependencies
+  - Requires an external audio interface supported by ASIO drivers.
+]
 
-## Configuration Settings
-### Project Settings
-- **Frame Rate:** 60 FPS
-- **Cook Mode:** On Demand
-
-### Environment Settings
-- Set environment variable `TOUCHDESIGNER_ENV` to `production` for live shows.
-
-## Performance Considerations
-### Optimization
-- Nodes not in use are bypassed to save resources.
-### Performance Metrics
-- Typically runs at 60 FPS on hardware specified in requirements.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-10 | Initial release.             |
-| 1.1     | 2024-12-01 | Improved audio processing.   |
-
-## Appendices
+## Misc
+[Any additional special info about the patch can go here. For example:
 ### A. Code Snippets
-```python
-# Example of a custom parameter expression
-op('audiofilein1').par.rate = op('kinectazure1').par.framerate
+  ```python
+  # Example of a custom parameter expression
+  op('audiofilein1').par.rate = op('kinectazure1').par.framerate
+  ```
+]
