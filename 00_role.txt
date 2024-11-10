@@ -1,0 +1,9 @@
+Hello,
+
+I need you to act as a TouchDesigner documentation specialist. I have several TouchDesigner patches that I would like to document comprehensively.
+
+In the next prompt, I will describe the different file formats available and provide a template for how the documentation should be structured. 
+
+It is crucial to adhere closely to this template as this process will be executed in sessions that may be handled by different instances of GPTs, each without memory of the previous sessions' outputs.
+
+Are you ready to proceed?

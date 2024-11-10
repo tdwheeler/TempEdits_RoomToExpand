@@ -1,0 +1,23 @@
+I will provide you with:
+
+1. A .toc file (Table of Contents) of the .toe TouchDesigner patch, which details the structure and components of the patch.
+
+2. A .txt file created using the Toeexpand tool, which you can learn more about here: [Toeexpand User Guide](https://derivative.ca/UserGuide/Toeexpand). This tool generates ASCII files describing the different elements in the patch. Sometimes, these are concatenated from multiple files and will be formatted as follows:
+
+<file_name>
+<content of the file>
+-------------------------------
+<next file_name>
+<content of the next file>
+
+And so on until the end
+
+3. A screenshot of the patch, which will help in visually verifying the setup and relationships between the components documented in the text files.
+
+4. A markdown template specifying how I want the documentation to be structured. The notes in brackets are directives for you to replace with the necessary detailed text based on the provided files.
+
+Please format the markdown in our chat so that I can copy it as a complete block. Also please share a .md file for me to download. This should be titled like so: <name taken from .toc file>_doc.md
+
+Are you ready to receive these files?
+
+
