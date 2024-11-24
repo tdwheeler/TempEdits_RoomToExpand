@@ -3,7 +3,6 @@
 
 ## Document Details
 - **Version:** 1.0
-- **Author:** [Your Name Here]
 - **Date:** November 24, 2024
 
 ## Project Overview
@@ -18,10 +17,6 @@ This TouchDesigner project processes audio input data to apply real-time filteri
 ### Hardware Requirements
 - Kinect Azure for motion tracking.
 - Audio interface for high-quality audio input and output.
-
-## Node Graph Overview
-### Diagram
-![Complete Node Network](5_audio%20filter%20example.toe.png)
 
 ### General Flow Description
 The project captures audio input and applies filters, with visualizations controlled by Kinect Azure motion data. The pipeline ensures real-time processing for interactive audio-visual installations or performances.
@@ -110,15 +105,3 @@ The project captures audio input and applies filters, with visualizations contro
 
 ### Performance Metrics
 - Stable 60 FPS with hardware meeting requirements.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-24 | Initial release.             |
-
-## Appendices
-### A. Code Snippets
-```python
-# Example Python code for parameter updates
-op('audiofilter1').par.freq = op('lag1').par.value0
-```
