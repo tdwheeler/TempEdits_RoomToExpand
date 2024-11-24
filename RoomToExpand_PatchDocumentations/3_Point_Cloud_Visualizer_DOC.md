@@ -19,10 +19,6 @@ This TouchDesigner project uses Kinect Azure data to generate and visualize a dy
 - Kinect Azure for capturing motion and depth data.
 - A GPU capable of running advanced rendering techniques.
 
-## Node Graph Overview
-### Diagram
-![Complete Node Network](3_pointcloud.toe.png)
-
 ### General Flow Description
 The project captures data from a Kinect Azure sensor and processes it into a 3D point cloud. The pipeline includes data scaling, material application, and rendering for interactive visualization. The output is customizable for various applications, such as real-time art installations or performance visuals.
 
