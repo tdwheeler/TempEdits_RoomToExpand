@@ -3,7 +3,6 @@
 
 ## Document Details
 - **Version:** 1.0
-- **Author:** [Your Name Here]
 - **Date:** November 24, 2024
 
 ## Project Overview
@@ -86,18 +85,3 @@ The project captures motion data from Kinect Azure and uses it to drive NVFlow e
 
 ### Performance Metrics
 - Consistent 60 FPS observed on recommended hardware.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-24 | Initial release.             |
-
-## Appendices
-### A. Code Snippets
-```python
-# Example custom Python for replicator callbacks
-def replicate(comp, allOps, newOps, template, master):
-    for c in newOps:
-        c.display = True
-        c.render = True
-```
