@@ -3,7 +3,6 @@
 
 ## Document Details
 - **Version:** 1.0
-- **Author:** [Your Name Here]
 - **Date:** November 24, 2024
 
 ## Project Overview
@@ -100,15 +99,3 @@ The project captures motion data for two players using Kinect Azure. Each player
 
 ### Performance Metrics
 - Consistent 60 FPS on hardware meeting the specified requirements.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-24 | Initial release.             |
-
-## Appendices
-### A. Code Snippets
-```python
-# Example Python for audio trigger customization
-op('audioplay1').par.file = 'audio/snare.wav'
-```
