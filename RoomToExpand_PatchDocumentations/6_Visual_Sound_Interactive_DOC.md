@@ -3,7 +3,6 @@
 
 ## Document Details
 - **Version:** 1.0
-- **Author:** [Your Name Here]
 - **Date:** November 24, 2024
 
 ## Project Overview
@@ -19,10 +18,6 @@ This TouchDesigner project combines visual and audio elements to create an inter
 - Kinect Azure for motion tracking.
 - Professional audio interface for capturing high-quality audio inputs.
 - A capable GPU for real-time rendering.
-
-## Node Graph Overview
-### Diagram
-![Complete Node Network](visual_sound_interactive.png)
 
 ### General Flow Description
 The project captures motion and audio inputs, processes the data, and outputs synchronized audio-visual effects. The node graph is organized to handle motion data via Kinect Azure and audio data through audio file inputs, which are then filtered, analyzed, and used to drive visual outputs.
@@ -91,15 +86,3 @@ The project captures motion and audio inputs, processes the data, and outputs sy
 
 ### Performance Metrics
 - Maintains a steady 60 FPS on a system with the recommended hardware.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-24 | Initial release.             |
-
-## Appendices
-### A. Code Snippets
-```python
-# Example of linking audio modulation to a visual parameter
-op('comp1').par.opacity = op('audioplay1').par.volume
-```
