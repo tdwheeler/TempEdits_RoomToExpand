@@ -3,7 +3,6 @@
 
 ## Document Details
 - **Version:** 1.0
-- **Author:** [Your Name Here]
 - **Date:** November 24, 2024
 
 ## Project Overview
@@ -99,14 +98,6 @@ The project captures data from a Kinect Azure sensor and processes it into a 3D 
 
 ### Performance Metrics
 - Stable 60 FPS with recommended hardware.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-24 | Initial release.             |
-
-## Appendices
-### A. Code Snippets
 ```python
 # Example Python code for setting custom parameters
 op('geo1').par.instancetx = op('null1').par.tx
