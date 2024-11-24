@@ -19,11 +19,7 @@ This TouchDesigner project demonstrates a real-time smoke and fire simulation us
 - Kinect Azure for motion tracking.
 - A GPU with NVFlow support for real-time smoke rendering.
 
-## Node Graph Overview
-### Diagram
-![Complete Node Network](1_smoke_fire_body_toe.png)
-
-### General Flow Description
+## General Flow Description
 The project captures motion data from Kinect Azure and uses it to drive NVFlow emitters. The emitters generate dynamic smoke and fire effects rendered in real time, with outputs configured for multi-display setups.
 
 ## Detailed Node Descriptions
