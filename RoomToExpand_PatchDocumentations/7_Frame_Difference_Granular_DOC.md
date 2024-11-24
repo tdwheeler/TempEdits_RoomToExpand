@@ -3,7 +3,6 @@
 
 ## Document Details
 - **Version:** 1.0
-- **Author:** [Your Name Here]
 - **Date:** November 24, 2024
 
 ## Project Overview
@@ -18,10 +17,6 @@ This TouchDesigner project processes Kinect Azure input to calculate frame diffe
 ### Hardware Requirements
 - Kinect Azure for motion tracking and input.
 - A GPU capable of real-time processing for video outputs.
-
-## Node Graph Overview
-### Diagram
-![Complete Node Network](frame_difference.png)
 
 ### General Flow Description
 The project captures video input via Kinect Azure and calculates frame differences using a caching mechanism. The differences are processed to highlight motion and output to OSC for integration with other applications or visual systems.
@@ -106,15 +101,3 @@ The project captures video input via Kinect Azure and calculates frame differenc
 
 ### Performance Metrics
 - Maintains 60 FPS on hardware with recommended specifications.
-
-## Version History
-| Version | Date       | Description                  |
-|---------|------------|------------------------------|
-| 1.0     | 2024-11-24 | Initial release.             |
-
-## Appendices
-### A. Code Snippets
-```python
-# Example code for customizing OSC output parameters
-op('oscout1').par.netaddress = '192.168.1.100'
-```
